@@ -1,0 +1,108 @@
+/* Set up basic styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('/home/varshini/Documents/background.jpg');
+}
+
+/* Style the header with a background color, centered logo, and navigation menu */
+header {
+  background-color: #FFC107;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header img {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style the main section with a background color and centered content */
+main {
+  background-color: #F5F5F5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the menu section with a grid layout and centered items */
+section:nth-of-type(1) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+  margin-top: 0;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #FFC107;
+  color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the cart section with a grid layout and centered items */
+section:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+section p:last-of-type {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Style the footer with a background color and centered text */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
